@@ -1,0 +1,70 @@
+body{
+
+    font-family: 'Nanum Gothic', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.titulo {
+    display: flex;
+    justify-content: space-between;
+}
+.titulo h1{
+    background: dark;
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+    color: dark;
+}
+header h1{
+    justify-content: flex-end;
+    text-align: center ;
+    padding-top: 50px;
+    color: gray;
+}
+h1{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}  
+article{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.list-group{
+    text-align: center;
+    margin: 1px;
+    list-style: none;
+    color: gray;
+
+}
+.list-group-item{
+    width: 250px;
+    height: 30px;
+    border: 1px solid gray;
+    margin: 2px;
+    color: gray;
+    padding:2px;
+}
+.perfil_personal .list-group .list-group-item{
+    width: 90%;
+    height: 70px;
+    border-radius: 30px;
+}
+footer{
+    color: gray;
+
+    text-align: center;
+}
+footer h1{font-size: 14px;}
+footer img{
+    width: 20px;
+    height: 20px;
+}

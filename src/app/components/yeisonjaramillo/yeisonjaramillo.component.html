@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoja de vida</title>
+    <link rel="stylesheet" href="yeisonjaramillo.component.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <div class="titulo">
+        <h1>            
+            CURSO APLICACIONES WEB INTERSEMESTRAL
+        </h1>
+        <a class="btn btn-dark" [routerLink]="[ '/about']" routerLinkActive="active">volver</a>       
+    </div>
+    <!--menu hoja de viad-->
+    <header>
+        <img src="../../../assets/img/fondo_perfil.png" alt="">
+        <h1>HOJA DE VIDA</h1>
+    </header>
+
+    <article>
+        <section class="datos-personales">
+
+            <ul class="list-group">
+                <h1>DATOS PERSONALES</h1>
+                <li class="list-group-item">JARAMILLO YEISON</li>
+                <li class="list-group-item">JULILO 1980</li>
+                <li class="list-group-item">1223456789</li>
+                <li class="list-group-item">CHAVACO096@GMAIL.COM</li>
+            </ul>
+        </section>
+
+        <section class="pasatiempo">
+
+            <ul class="list-group">
+                <h1>PASATIEMPO</h1>
+                <li class="list-group-item">FUTBOL</li>
+                <li class="list-group-item">PROGRAMACION</li>
+                <li class="list-group-item">GAMES</li>
+            </ul>
+        </section>
+
+        <section class="estudios">
+
+            <ul class="list-group">
+                <h1>ESTUDIOS</h1>
+                <li class="list-group-item">PRIMARIA</li>
+                <li class="list-group-item">SECUNDARIA</li>
+                <li class="list-group-item">UNIVERSIDAD</li>
+            </ul>
+        </section>
+
+        <section class="contacto">
+
+            <ul class="list-group">
+                <h1>CONTACTOS</h1>
+                <li class="list-group-item">1234567890</li>
+                <li class="list-group-item">CHAVACO096@GMAIL.COM</li>
+                <li class="list-group-item"></li>
+            </ul>
+        </section>
+    </article>
+    <div class="perfil_personal">
+        <ul class="list-group">
+            <li class="list-group-item">DESCRIPCION PERFIL<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quibusdam sunt officiis debitis error sequi <br>
+                tempore pariatur quam quod, hic nostrum aspernatur rem.
+                Rerum itaque corporis fugiat eum hic, mollitia totam!</li>
+        </ul>
+    </div>
+    <footer>
+        <h1>TAMBIEN EN</h1>
+        <img src="../../../assets/img/facebook.png" alt="#">
+        <img src="../../../assets/img/instagram.png" alt="#">
+        <img src="../../../assets/img/linkedin.png" alt="#">
+    </footer>
+</body>
+
+</html>
